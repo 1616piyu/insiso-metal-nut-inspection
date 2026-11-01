@@ -1,0 +1,36 @@
+﻿# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset - download separately
+data/
+
+# Training outputs
+runs/
+
+# Model checkpoints
+*.pt
+/yolov8n.pt
+
+# Temporary model weights folder
+weights/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Intermediate visualizations and audit outputs
+results/
